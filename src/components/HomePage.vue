@@ -38,12 +38,12 @@ export default {
     openUrl(route) {
       this.$router.push(route);
     },
-    // async deleteRest(id) {
-    //   let result = await axios.delete("http://localhost:3000/restaurant/" + id);
-    //   if (result.status == 200) {
-    //     this.loadData();
-    //   }
-    // },
+    async deleteRest(id) {
+      let result = await axios.delete("http://localhost:3000/restaurant/" + id);
+      if (result.status == 200) {
+        this.loadData();
+      }
+    },
     async loadData() {
       let user = localStorage.getItem("user-info");
       this.name = JSON.parse(user).name;
