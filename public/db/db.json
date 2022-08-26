@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "name": "Nosheen",
+      "password": "ladybug",
+      "email": "nosheen@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "minahil",
+      "email": "minahil@gmail.com",
+      "password": "mksnds",
+      "id": 2
+    },
+    {
+      "name": "tony",
+      "email": "tony@gmail.com",
+      "password": "tony",
+      "id": 3
+    },
+    {
+      "name": "Peter",
+      "email": "peter@gmail.com",
+      "password": "peter",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "Nosheen",
+      "email": "nosheen.rashid@gmail.com",
+      "id": 6
+    },
+    {
+      "withCredentials": true,
+      "id": 7
+    },
+    {
+      "name": "Nosheen",
+      "email": "nosheen.rashid@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Nosheen",
+      "email": "nosheen.rashid@gmail.com",
+      "id": 9
+    },
+    {
+      "withCredentials": true,
+      "id": 10
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "Real Taste",
+      "address": "Kamoke",
+      "contact": "8989",
+      "id": 1
+    },
+    {
+      "name": "KFC",
+      "address": "Kamoke",
+      "contact": 68267482,
+      "id": 2
+    },
+    {
+      "name": "Pizza King",
+      "address": "Lahore",
+      "contact": 89898798,
+      "id": 3
+    }
+  ]
+}
